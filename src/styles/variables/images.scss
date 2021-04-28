@@ -16,3 +16,19 @@
 @mixin editor-logo {
   @include background-image('../../assets/images/logo.svg', 16.22px, 18.56px);
 }
+
+@mixin editor-files {
+  @include background-image('../../assets/icons/file.svg', 16px, 20px);
+}
+
+@mixin gitlab {
+  @include background-image('../../assets/icons/gitlab.svg', 22.03px, 20.24px);
+}
+
+@mixin vendors {
+  @include background-image('../../assets/icons/vendors.svg', 20px, 18px);
+}
+
+@mixin clients {
+  @include background-image('../../assets/icons/clients.svg', 22px, 18px);
+}
