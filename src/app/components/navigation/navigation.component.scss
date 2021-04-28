@@ -1,0 +1,22 @@
+@import '../../../styles/styles.scss';
+
+
+.navigation {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 80px;
+  height: 100%;
+  padding: 0 19px 0 19px;
+
+  .logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+
+    .yaml-editor-icon {
+      @include editor-logo;
+      display:initial;
+    }
+  }
+}
